@@ -8,6 +8,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 70px;
+    width: 100%;
     background-color:#FFF1E0;
     border-bottom: 2px solid #0D7680;
 }
@@ -90,4 +91,13 @@ input{
     background-color:#FFF1E0;
     border-radius: 10px;
     
+}
+
+@media only screen and (max-width: 600px) {
+    #form-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px;
+
+    }
 }
