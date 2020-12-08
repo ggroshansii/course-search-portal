@@ -9,127 +9,107 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
-
 </head>
 
 <body>
-    <header>
-        <h1>Course Search Portal:</h1>
-    </header>
-    <main>
-       
-        <div id="form-container">
-
-            <div class="search-engine">
-                <h2 class="course-heading">Udemy</h2>
-                <form action="https://www.udemy.com/courses/development/web-development/">
-                    <div class="input-box">
-                        <input type="text" name="search-query" />
-                        <button>Go</button>
+    <div id="grid-body-wrapper">
+        <header>
+            <h1>Course Search Portal:</h1>
+        </header>
+        <main>
+            <div id="flex-main-wrapper">
+                <div id="form-container">
+                    <div class="search-engine">
+                        <h2 class="course-heading">Udemy</h2>
+                        <form action="https://www.udemy.com/courses/development/web-development/">
+                            <div class="input-box">
+                                <input type="text" name="search-query" />
+                                <button>Go</button>
+                            </div>
+                        </form>
                     </div>
-                </form>
-            </div>
-
-            <div class="search-engine">
-                <h2 class="course-heading">Coursera</h2>
-                <form action="https://www.coursera.org/search">
-                    <div class="input-box">
-                        <input type="text" name="query" />
-                        <button>Go</button>
+                    <div class="search-engine">
+                        <h2 class="course-heading">Coursera</h2>
+                        <form action="https://www.coursera.org/search">
+                            <div class="input-box">
+                                <input type="text" name="query" />
+                                <button>Go</button>
+                            </div>
+                        </form>
                     </div>
-                </form>
-            </div>
-
-
-            <div class="search-engine">
-                <h2 class="course-heading">edX</h2>
-                <form action="https://www.edx.org/search">
-
-                    <div class="input-box">
-                        <input type="text" name="q" />
-                        <button>Go</button>
+                    <div class="search-engine">
+                        <h2 class="course-heading">edX</h2>
+                        <form action="https://www.edx.org/search">
+                            <div class="input-box">
+                                <input type="text" name="q" />
+                                <button>Go</button>
+                            </div>
+                        </form>
                     </div>
-                </form>
-            </div>
+                    <div class="search-engine">
+                        <h2 class="course-heading">Linkedin Learning</h2>
+                        <form action="https://www.linkedin.com/learning/search">
+                            <div class="input-box">
 
-            <div class="search-engine">
-                <h2 class="course-heading">Linkedin Learning</h2>
-                <form action="https://www.linkedin.com/learning/search">
-                    <div class="input-box">
-
-                        <input type="text" name="keywords" />
-                        <button>Go</button>
+                                <input type="text" name="keywords" />
+                                <button>Go</button>
+                            </div>
+                        </form>
                     </div>
-
-                </form>
-            </div>
-
-            <div class="search-engine">
-                <h2 class="course-heading">Skillshare</h2>
-                <form action="https://www.skillshare.com/search">
-                    <div class="input-box">
-                        <input type="text" name="query" />
-                        <button>Go</button>
+                    <div class="search-engine">
+                        <h2 class="course-heading">Skillshare</h2>
+                        <form action="https://www.skillshare.com/search">
+                            <div class="input-box">
+                                <input type="text" name="query" />
+                                <button>Go</button>
+                            </div>
+                        </form>
                     </div>
-
-
-                </form>
-            </div>
-
-
-            <div class="search-engine">
-                <h2 class="course-heading">Udacity</h2>
-                <form action="https://www.udacity.com/courses/all">
-                    <div class="input-box">
-                        <input type="text" name="search" />
-                        <button>Go</button>
+                    <div class="search-engine">
+                        <h2 class="course-heading">Udacity</h2>
+                        <form action="https://www.udacity.com/courses/all">
+                            <div class="input-box">
+                                <input type="text" name="search" />
+                                <button>Go</button>
+                            </div>
+                        </form>
                     </div>
-
-                </form>
-            </div>
-
-
-            <div class="search-engine">
-                <h2 class="course-heading">Crash Course</h2>
-                <form action="https://www.youtube.com/c/crashcourse/search">
-                    <div class="input-box">
-                        <input type="text" name="query" />
-                        <button>Go</button>
+                    <div class="search-engine">
+                        <h2 class="course-heading">Crash Course</h2>
+                        <form action="https://www.youtube.com/c/crashcourse/search">
+                            <div class="input-box">
+                                <input type="text" name="query" />
+                                <button>Go</button>
+                            </div>
+                        </form>
                     </div>
-
-                </form>
-            </div>
-
-            <div class="search-engine">
-                <h2 class="course-heading">Kurgesagt</h2>
-                <form action="https://www.youtube.com/c/inanutshell/search">
-                    <div class="input-box">
-                        <input type="text" name="query" />
-                        <button>Go</button>
+                    <div class="search-engine">
+                        <h2 class="course-heading">Kurgesagt</h2>
+                        <form action="https://www.youtube.com/c/inanutshell/search">
+                            <div class="input-box">
+                                <input type="text" name="query" />
+                                <button>Go</button>
+                            </div>
+                        </form>
                     </div>
-
-
-                </form>
-            </div>
-            <div class="search-engine">
-                <h2 class="course-heading">Veritasium</h2>
-                <form action="https://www.youtube.com/user/1veritasium/search">
-                    <div class="input-box">
-                        <input type="text" name="query" />
-                        <button>Go</button>
+                    <div class="search-engine">
+                        <h2 class="course-heading">Veritasium</h2>
+                        <form action="https://www.youtube.com/user/1veritasium/search">
+                            <div class="input-box">
+                                <input type="text" name="query" />
+                                <button>Go</button>
+                            </div>
+                        </form>
                     </div>
-
-                </form>
+                    </form>
+                </div>
             </div>
-
-
-            </form>
-        </div>
-    </main>
-    <footer></footer>
+        </main>
+        <footer>
+        </footer>
+    </div>
 </body>
-
 </html>
