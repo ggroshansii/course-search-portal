@@ -1,97 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Course Portal</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
-  </head>
-  <body>
+
+</head>
+
+<body>
     <header>
-      <h1>Course Search Portal:</h1>
+        <h1>Course Search Portal:</h1>
     </header>
     <main>
-      <div id="form-container">
+       
+        <div id="form-container">
 
-        <div class="search-engine">
-            <h2>Udemy</h2>
-            <form action="https://www.udemy.com/courses/development/web-development/">
-              <input type="text" name="search-query" />
-              <button>Submit</button>
+            <div class="search-engine">
+                <h2 class="course-heading">Udemy</h2>
+                <form action="https://www.udemy.com/courses/development/web-development/">
+                    <div class="input-box">
+                        <input type="text" name="search-query" />
+                        <button>Enter</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="search-engine">
+                <h2 class="course-heading">Coursera</h2>
+                <form action="https://www.coursera.org/search">
+                    <div class="input-box">
+                        <input type="text" name="query" />
+                        <button>Enter</button>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="search-engine">
+                <h2 class="course-heading">edX</h2>
+                <form action="https://www.edx.org/search">
+
+                    <div class="input-box">
+                        <input type="text" name="q" />
+                        <button>Enter</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="search-engine">
+                <h2 class="course-heading">Linkedin Learning</h2>
+                <form action="https://www.linkedin.com/learning/search">
+                    <div class="input-box">
+
+                        <input type="text" name="keywords" />
+                        <button>Enter</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="search-engine">
+                <h2 class="course-heading">Skillshare</h2>
+                <form action="https://www.skillshare.com/search">
+                    <div class="input-box">
+                        <input type="text" name="query" />
+                        <button>Enter</button>
+                    </div>
+
+
+                </form>
+            </div>
+
+
+            <div class="search-engine">
+                <h2 class="course-heading">Udacity</h2>
+                <form action="https://www.udacity.com/courses/all">
+                    <div class="input-box">
+                        <input type="text" name="search" />
+                        <button>Enter</button>
+                    </div>
+
+                </form>
+            </div>
+
+
+            <div class="search-engine">
+                <h2 class="course-heading">Crash Course</h2>
+                <form action="https://www.youtube.com/c/crashcourse/search">
+                    <div class="input-box">
+                        <input type="text" name="query" />
+                        <button>Enter</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="search-engine">
+                <h2 class="course-heading">Kurgesagt</h2>
+                <form action="https://www.youtube.com/c/inanutshell/search">
+                    <div class="input-box">
+                        <input type="text" name="query" />
+                        <button>Enter</button>
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="search-engine">
+                <h2 class="course-heading">Veritasium</h2>
+                <form action="https://www.youtube.com/user/1veritasium/search">
+                    <div class="input-box">
+                        <input type="text" name="query" />
+                        <button>Enter</button>
+                    </div>
+
+                </form>
+            </div>
+
+
             </form>
         </div>
-
-        <div class="search-engine">
-            <h2>Coursera</h2>
-            <form action="https://www.coursera.org/search">
-              <input type="text" name="query" />
-              <button>Submit</button>
-            </form>
-        </div>
-
-
-        <div class="search-engine">
-            <h2>edX</h2>
-            <form action="https://www.edx.org/search">
-              <input type="text" name="q" />
-              <button>Submit</button>
-            </form>
-        </div>
-
-        <div class="search-engine">
-            <h2>Linkedin Learning</h2>
-            <form action="https://www.linkedin.com/learning/search">
-              <input type="text" name="keywords" />
-              <button>Submit</button>
-            </form>
-        </div>
-
-        <div class="search-engine">
-            <h2>Skillshare</h2>
-            <form action="https://www.skillshare.com/search">
-              <input type="text" name="query" />
-              <button>Submit</button>
-            </form>
-        </div>
-
-
-        <div class="search-engine">
-            <h2>Udacity</h2>
-            <form action="https://www.udacity.com/courses/all">
-              <input type="text" name="search" />
-              <button>Submit</button>
-            </form>
-        </div>
-
-
-        <div class="search-engine">
-            <h2>Crash Course</h2>
-            <form action="https://www.youtube.com/c/crashcourse/search">
-              <input type="text" name="query" />
-              <button>Submit</button>
-            </form>
-        </div>
-
-
-        <div class="search-engine">
-            <h2>Kurgesagt</h2>
-            <form action="https://www.youtube.com/c/inanutshell/search">
-              <input type="text" name="query" />
-              <button>Submit</button>
-            </form>
-        </div>
-        <div class="search-engine">
-            <h2>Veritasium</h2>
-            <form action="https://www.youtube.com/user/1veritasium/search">
-              <input type="text" name="query" />
-              <button>Submit</button>
-            </form>
-        </div>
-
-
-        </form>
-      </div>
     </main>
     <footer></footer>
-  </body>
+</body>
+
 </html>

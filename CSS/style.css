@@ -1,0 +1,93 @@
+
+html{
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color:#FFF1E0;
+    border-bottom: 2px solid #0D7680;
+}
+
+main{
+    margin-top: 25px;;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 28px;
+    color: #0D7680;
+}
+
+h2{
+    color:#FFF1E0;
+    font-size: 16pt;
+    font-weight: 900;
+}
+
+h2, button{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#form-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 180px 180px 180px;
+    grid-gap: 30px;
+    height: 100%;
+    margin: 0px 50px;
+}
+
+.search-engine{
+    background-color: #0D7680;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-engine:hover{
+    background-color: #12a7b5;
+    letter-spacing: 2px;
+    border: 2px solid white;
+}
+
+.course-heading{
+    text-align: center;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-top: 15px;
+
+  
+}
+
+button{
+    width: 25%;
+    margin-top: 5px;
+    background-color:#FFF1E0;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+button:hover{
+    background-color: #16c8d9;
+}
+
+input{
+    width: 90%;
+    background-color:#FFF1E0;
+    border-radius: 10px;
+    
+}
