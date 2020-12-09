@@ -5,6 +5,7 @@
 
 html {
   background-color: #ffffff;
+  
 }
 
 header {
@@ -12,8 +13,9 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #fff1e0;
-  border-bottom: 2px solid #0d7680;
+  background-image: linear-gradient(to top , rgba(	6, 54, 59,0.4), rgba(	6, 54, 59,1));
+  border-bottom: 3px solid #800d3d;
+  
 }
 
 main {
@@ -23,8 +25,9 @@ main {
 h1 {
   text-align: center;
   font-family: "Proza Libre", sans-serif;
-  font-size: 28px;
-  color: #0d7680;
+  font-size: 36px;
+  color: white;
+  
 }
 
 h2 {
@@ -49,6 +52,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 #form-container {
@@ -56,12 +60,13 @@ button {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 30px;
+  margin: auto;
   
 
 }
 
 .search-engine {
-  background-color: #0d7680;
+  background-image: linear-gradient(to bottom right, rgba(13,118,128,0.5), rgba(13,118,128,1));
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   display: flex;
@@ -69,6 +74,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  border: 2px solid #800d3d;
 }
 
 .search-engine:hover {
@@ -110,8 +116,8 @@ input {
 
 footer {
   width: 100%;
-  background-color: #fff1e0;
-  border-top: 2px solid #0d7680;
+  background-image: linear-gradient(to bottom, rgba(	6, 54, 59,0.3), rgba(		6, 54, 59,1));
+  border-top: 3px solid #800d3d;
 }
 
 @media only screen and (max-width: 600px) {
