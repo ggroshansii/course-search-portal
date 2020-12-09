@@ -63,10 +63,10 @@ button {
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 30px;
   margin: auto;
-  padding: 15px;
+  padding: 10px;
   height: 90%;
   width: 60%;
-  border: 3px solid red;
+
 
 }
 
