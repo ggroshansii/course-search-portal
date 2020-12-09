@@ -10,12 +10,13 @@ html {
 
 header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   background-image: linear-gradient(to top , rgba(46, 91, 95,0.8), rgba(	6, 54, 59,1));
   border-bottom: 2px solid #06363b;
-  
+  border: 3px solid pink;
 }
 
 main {
@@ -27,13 +28,21 @@ h1 {
   font-family: "Proza Libre", sans-serif;
   font-size: 36px;
   color: white;
-  
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: white;
+  border: 2px solid yellow;
 }
 
 h2 {
   color: white;
   font-size: 16pt;
   font-weight: 900;
+  font-style: italic;
 }
 
 h2,
