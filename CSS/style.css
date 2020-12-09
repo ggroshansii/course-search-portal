@@ -19,7 +19,7 @@ header {
 }
 
 main {
-  margin: 25px 0px;
+  margin: 0px 0px;
 }
 
 h1 {
@@ -53,6 +53,7 @@ button {
   justify-content: center;
   align-items: center;
   margin: auto;
+  height: 100%;
 }
 
 #form-container {
@@ -61,8 +62,6 @@ button {
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 30px;
   margin: auto;
-  
-
 }
 
 .search-engine {
