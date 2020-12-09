@@ -13,7 +13,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: linear-gradient(to top , rgba(	6, 54, 59,0.4), rgba(	6, 54, 59,1));
+  background-image: linear-gradient(to top , rgba(46, 91, 95,0.8), rgba(	6, 54, 59,1));
   border-bottom: 2px solid #06363b;
   
 }
@@ -54,6 +54,7 @@ button {
   align-items: center;
   margin: auto;
   height: 100%;
+  
 }
 
 #form-container {
@@ -62,10 +63,15 @@ button {
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 30px;
   margin: auto;
+  padding: 15px;
+  height: 90%;
+  width: 60%;
+  border: 3px solid red;
+
 }
 
 .search-engine {
-  background-image: linear-gradient(to bottom right, rgba(13,118,128,0.5), rgba(13,118,128,1));
+  background-image: linear-gradient(to bottom right, rgba(46, 91, 95,1), rgba(13,118,128,0.8));
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   display: flex;
@@ -74,10 +80,11 @@ button {
   align-items: center;
   padding: 20px;
   border: 2px solid #06363b;
+ 
 }
 
 .search-engine:hover {
-  background-color: #12a7b5;
+  background-color: #0f828d;
   letter-spacing: 1px;
   
 }
@@ -104,7 +111,7 @@ button {
 }
 
 button:hover {
-  background-color: #16c8d9;
+  background-color: #1898a3;
 }
 
 input {
@@ -115,7 +122,7 @@ input {
 
 footer {
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(	6, 54, 59,0.3), rgba(		6, 54, 59,1));
+  background-image: linear-gradient(to bottom, rgba(46, 91, 95,0.5), rgba(		6, 54, 59,1));
   border-top: 2px solid #06363b;
 }
 
