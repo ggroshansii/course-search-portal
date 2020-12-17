@@ -4,8 +4,7 @@
 }
 
 html {
-  background-color: #fff9f1;
-  
+  background-color: #ddecee;
 }
 
 header {
@@ -14,12 +13,13 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: linear-gradient(to top , rgba(46, 91, 95,0.8), rgba(	6, 54, 59,1));
-  border-bottom: 2px solid #06363b;
+  background-image: linear-gradient(to top , rgba(255, 255, 255, 0.0), rgba(6, 54, 59,1));
+  border-bottom: 2.5px solid #06363b;
 }
 
 main {
   margin: 0px 0px;
+  he
 }
 
 h1 {
@@ -34,27 +34,23 @@ p {
   font-family: cursive;
   font-size: 14px;
   color: white;
-  
 }
 
 h2 {
   color: white;
   font-size: 12pt;
   font-weight: normal;
-
 }
 
 h2,
 button {
   font-family: lobster;
-  
 }
 
 #grid-body-wrapper{
     display: grid;
     grid-template-rows: 15% 1fr 15%;
     height: 100vh;
-    
 }
 
 #flex-main-wrapper {
@@ -63,7 +59,6 @@ button {
   align-items: center;
   margin: auto;
   height: 100%;
-  
 }
 
 #form-container {
@@ -73,15 +68,12 @@ button {
   grid-gap: 30px;
   margin: auto;
   padding: 10px;
-  height: 90%;
-  width: 60%;
-
-
+  height: auto;
+  width: auto;
 }
 
 .search-engine {
-  background-color: rgba(46, 91, 95,0.8);
-  background-image: linear-gradient(to bottom right, rgba(46, 91, 95,1), rgba(13,118,128,0.8));
+  color: rgb(15, 61, 65);
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   display: flex;
@@ -90,13 +82,14 @@ button {
   align-items: center;
   padding: 20px;
   border: 2px solid #06363b;
-  transition: background-color 300ms ease-in, border-top-right-radius 1s, border-bottom-left-radius 1s, border-top-left-radius 1s, border-bottom-right-radius 1s, color 1s linear;
- 
+  background-color: #58a9b3; 
+  transition: background-color 300ms ease-in, border-top-right-radius 1s, border-bottom-left-radius 1s, border-top-left-radius 1s, border-bottom-right-radius 1s, letter-spacing 1s, color 1s linear;
 }
 
 
 .course-heading {
   text-align: center;
+  color: rgb(15, 61, 65);
 }
 
 .input-box {
@@ -111,42 +104,45 @@ button {
 button {
   width: 25%;
   margin-top: 5px;
-  background-color: #fdf3e7;
   border-top-left-radius: 12px;
   border-bottom-right-radius: 12px;
 }
 
 button:hover {
-  background-color: #ffffff;
-  letter-spacing: 1px;
+  background-color: rgb(207, 212, 207);
 }
 
 input {
   width: 90%;
-  background-color: #fdf3e7;
   border-radius: 10px;
+  background-color: #f7fbfb;
+  border: none;
 }
 
 footer {
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(46, 91, 95,0.8), rgba(	6, 54, 59,1));
-  border-top: 2px solid #06363b;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(	6, 54, 59,1));
+  border-top: 2.5px solid #06363b;
 }
 
 .search-engine:hover{
-  background-image: none;
-  letter-spacing: 1px;
-  color: black;
+  letter-spacing: 3px;
   background-color: #0094a1; 
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px;;
+  border-bottom-right-radius: 0px;
+  border: 2px solid white;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #052b30;
+  transform: translateY(0.25em);
 }
 
-input:active{
-  border-radius: 100px;
+.search-engine:hover > h2 {
+  color: white;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   #form-container {
